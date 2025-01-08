@@ -81,3 +81,54 @@
 .feature-card p{
     color: #A52A2A;
 }
+
+.checkout-section{
+    padding: 60px 0;
+}
+
+.checkout-section h2{
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 600;
+}
+
+.checkout-form{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: gray;
+    box-shadow: 0 40px 40px rgba(133, 147, 71, 0.93);
+}
+
+.checkout-form .custom-input{
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.footer{
+    padding: 60px 0;
+    background-color: rgb(33, 30, 30);
+    color: white;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-logo{
+    width: 150px;
+    height: 60px;
+}
+
+.social-icons a{
+    color: white;
+    font-size: 1.5rem;
+    transition: color 0.5s ease;
+}
+
+.social-icons a:hover{
+    color: #ff6600;
+}
